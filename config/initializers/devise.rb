@@ -262,7 +262,7 @@ Devise.setup do |config|
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
 
   if Rails.env.production?
-    config.omniauth :google_oauth2, '527836605419-ibmv7n2o5dl23nfacdlpcrnqbl712fdd.apps.googleusercontent.com', 'F-IV8IKn4x46WuIdDMjDQq7m', { access_type: 'offline', approval_prompt: '' }
+    config.omniauth :google_oauth2, '419038973023-vavpsl75jqr8crv2961iicltdngh9d6n.apps.googleusercontent.com', 'OmHjKZElY5mHACdA3gI0vlbl', { access_type: 'offline', approval_prompt: '' }
   else
     config.omniauth :google_oauth2, '527836605419-hknvtvfe9564sk7bf5cq9tepgfgjpq7t.apps.googleusercontent.com', 'pQsuytMa-_JPFIPajdfSR0DH', { access_type: 'offline', approval_prompt: '' }
   end
