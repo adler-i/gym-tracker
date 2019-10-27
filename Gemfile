@@ -20,6 +20,7 @@ gem 'cancancan'
 gem 'slim'
 gem 'react-rails'
 gem 'responders'
+gem 'meta-tags'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

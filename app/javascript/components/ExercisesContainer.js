@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import axios from 'axios';
 import ExerciseList from './ExerciseList'
+import Navigation from "./Navigation";
 
 class ExercisesContainer extends React.Component {
 
@@ -28,7 +29,10 @@ class ExercisesContainer extends React.Component {
 
         return (
             <div>
-                <ExerciseList exercises={exercises} />
+                <Navigation />
+                <React.Fragment>
+                    <ExerciseList exercises={exercises} />
+                </React.Fragment>
             </div>
         );
     }
