@@ -1,0 +1,2 @@
+class Subcycle < ApplicationRecord
+end

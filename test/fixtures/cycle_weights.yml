@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  exercise_weight_id: 1
+  cycle_id: 1
+  flag: MyString
+
+two:
+  exercise_weight_id: 1
+  cycle_id: 1
+  flag: MyString

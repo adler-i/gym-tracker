@@ -1,0 +1,2 @@
+class CycleWeight < ApplicationRecord
+end

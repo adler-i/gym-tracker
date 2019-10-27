@@ -1,0 +1,2 @@
+class ExerciseWeight < ApplicationRecord
+end
