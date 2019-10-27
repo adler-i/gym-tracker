@@ -28,5 +28,24 @@
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "webpack-dev-server": "^3.9.0"
-  }
+  },
+  "description": "![alt text](https://raw.githubusercontent.com/sajjadmurtaza49/SchedulyBridge/master/app/assets/images/login.png \"Login Screenshot\")",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adler-i/gym-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adler-i/gym-tracker/issues"
+  },
+  "homepage": "https://github.com/adler-i/gym-tracker#readme"
 }
